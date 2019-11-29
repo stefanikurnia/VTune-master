@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E08CD6E238455C200745BFF /* Menunggu Kamu (OST Jelita Sejuba).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4E08CD69238455C000745BFF /* Menunggu Kamu (OST Jelita Sejuba).mp3 */; };
+		4E08CD6F238455C200745BFF /* Goyang Dumang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4E08CD6A238455C000745BFF /* Goyang Dumang.mp3 */; };
+		4E08CD70238455C200745BFF /* Pesta.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4E08CD6B238455C100745BFF /* Pesta.mp3 */; };
+		4E08CD71238455C200745BFF /* Sempurna.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4E08CD6C238455C100745BFF /* Sempurna.mp3 */; };
+		4E08CD72238455C200745BFF /* Harus Bahagia.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4E08CD6D238455C200745BFF /* Harus Bahagia.mp3 */; };
+		4E08CD742384563D00745BFF /* AudioUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E08CD732384563D00745BFF /* AudioUtilities.swift */; };
+		4E08CD762384565400745BFF /* GraphUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E08CD752384565400745BFF /* GraphUtility.swift */; };
+		5157B76023756098005C795E /* MusicPlayerMini.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5157B75F23756098005C795E /* MusicPlayerMini.xib */; };
+		5157B762237560D2005C795E /* MusicPlayerMini.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5157B761237560D2005C795E /* MusicPlayerMini.swift */; };
+		5157B764237560DA005C795E /* DesignSliderProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5157B763237560DA005C795E /* DesignSliderProgress.swift */; };
+		AC054D072374031800E28931 /* PlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC054D062374031800E28931 /* PlayView.xib */; };
+		AC054D092374033100E28931 /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC054D082374033100E28931 /* PlayView.swift */; };
+		AC054D0B23740AE300E28931 /* Lirik.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC054D0A23740AE300E28931 /* Lirik.xib */; };
+		AC054D0D23740AF300E28931 /* Lirik.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC054D0C23740AF300E28931 /* Lirik.swift */; };
+		AC9F800A238277D100752432 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9F8009238277D100752432 /* OnboardingViewController.swift */; };
+		AC9F800C238277FB00752432 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9F800B238277FB00752432 /* Slide.swift */; };
+		AC9F800E2382782A00752432 /* GetStarted.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9F800D2382782A00752432 /* GetStarted.swift */; };
+		AC9F80102382787400752432 /* PageControlOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9F800F2382787400752432 /* PageControlOnboarding.swift */; };
+		AC9F80142382798E00752432 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9F80132382798E00752432 /* Onboarding.storyboard */; };
+		AC9F801623827A8F00752432 /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC9F801523827A8F00752432 /* Slide.xib */; };
+		DB52F03D237409270048B55D /* albumArtViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB52F03B237409270048B55D /* albumArtViewController.xib */; };
+		DC0EE70423819D0900638360 /* RunningText.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0EE70323819D0900638360 /* RunningText.swift */; };
+		DC222CA623898F6400B00C82 /* Helper in Resources */ = {isa = PBXBuildFile; fileRef = DC222CA523898F6400B00C82 /* Helper */; };
+		DC222CAA2389965800B00C82 /* MXMLyricsAction.m in Sources */ = {isa = PBXBuildFile; fileRef = DC222CA82389965800B00C82 /* MXMLyricsAction.m */; };
+		DC501479236C70F300AD39F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC501478236C70F300AD39F1 /* AppDelegate.swift */; };
+		DC50147B236C70F300AD39F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC50147A236C70F300AD39F1 /* SceneDelegate.swift */; };
+		DC501480236C70F300AD39F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC50147E236C70F300AD39F1 /* Main.storyboard */; };
+		DC501483236C70F300AD39F1 /* VTune.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC501481236C70F300AD39F1 /* VTune.xcdatamodeld */; };
+		DC501485236C70F500AD39F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC501484236C70F500AD39F1 /* Assets.xcassets */; };
+		DC501488236C70F500AD39F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC501486236C70F500AD39F1 /* LaunchScreen.storyboard */; };
+		DC60DADE237036320070F386 /* MusicPlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC60DADD237036320070F386 /* MusicPlayer.storyboard */; };
+		DC60DAE02370367E0070F386 /* MusicPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC60DADF2370367E0070F386 /* MusicPlayerViewController.swift */; };
+		DC67F452237A9EE2006F6278 /* EqualizerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC67F451237A9EE2006F6278 /* EqualizerView.xib */; };
+		DC67F455237A9F32006F6278 /* DurationSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC67F453237A9F31006F6278 /* DurationSlider.swift */; };
+		DC67F456237A9F32006F6278 /* VolumeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC67F454237A9F32006F6278 /* VolumeSlider.swift */; };
+		DC67F458237A9F42006F6278 /* EqualizerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC67F457237A9F42006F6278 /* EqualizerView.swift */; };
+		DC67F45B237A9F5B006F6278 /* dummySongFavorit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC67F459237A9F5B006F6278 /* dummySongFavorit.swift */; };
+		DC67F45C237A9F5B006F6278 /* dummySongList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC67F45A237A9F5B006F6278 /* dummySongList.swift */; };
+		DC74969E23832279004B7F42 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC74969D23832279004B7F42 /* Manager.swift */; };
+		DCA99FF123741D6200312B37 /* MusicPlayerHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCA99FF023741D6200312B37 /* MusicPlayerHeader.xib */; };
+		DCA99FF323741D7F00312B37 /* MusicPlayerHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA99FF223741D7F00312B37 /* MusicPlayerHeader.swift */; };
+		DCA99FF5237421A200312B37 /* MusicPlayerLyricHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCA99FF4237421A200312B37 /* MusicPlayerLyricHeader.xib */; };
+		DCA99FF7237421C800312B37 /* MusicPlayerLyricHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA99FF6237421C800312B37 /* MusicPlayerLyricHeader.swift */; };
+		DCA99FF923742CA500312B37 /* MusicPlayerAlbumImage.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCA99FF823742CA400312B37 /* MusicPlayerAlbumImage.xib */; };
+		DCA99FFB23742D5B00312B37 /* MusicPlayerAlbumImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA99FFA23742D5B00312B37 /* MusicPlayerAlbumImage.swift */; };
+		DCDFF6EA2373DA93002A45EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDFF6E92373DA93002A45EF /* ViewController.swift */; };
+		EF1C58A5237416B900694932 /* SongListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1C58A3237416B900694932 /* SongListTableViewCell.swift */; };
+		EF1C58A6237416B900694932 /* SongListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF1C58A4237416B900694932 /* SongListTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E08CD69238455C000745BFF /* Menunggu Kamu (OST Jelita Sejuba).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Menunggu Kamu (OST Jelita Sejuba).mp3"; sourceTree = "<group>"; };
+		4E08CD6A238455C000745BFF /* Goyang Dumang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Goyang Dumang.mp3"; sourceTree = "<group>"; };
+		4E08CD6B238455C100745BFF /* Pesta.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pesta.mp3; sourceTree = "<group>"; };
+		4E08CD6C238455C100745BFF /* Sempurna.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sempurna.mp3; sourceTree = "<group>"; };
+		4E08CD6D238455C200745BFF /* Harus Bahagia.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Harus Bahagia.mp3"; sourceTree = "<group>"; };
+		4E08CD732384563D00745BFF /* AudioUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUtilities.swift; sourceTree = "<group>"; };
+		4E08CD752384565400745BFF /* GraphUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphUtility.swift; sourceTree = "<group>"; };
+		5157B75F23756098005C795E /* MusicPlayerMini.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicPlayerMini.xib; sourceTree = "<group>"; };
+		5157B761237560D2005C795E /* MusicPlayerMini.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicPlayerMini.swift; sourceTree = "<group>"; };
+		5157B763237560DA005C795E /* DesignSliderProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignSliderProgress.swift; sourceTree = "<group>"; };
+		AC054D062374031800E28931 /* PlayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayView.xib; sourceTree = "<group>"; };
+		AC054D082374033100E28931 /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
+		AC054D0A23740AE300E28931 /* Lirik.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Lirik.xib; sourceTree = "<group>"; };
+		AC054D0C23740AF300E28931 /* Lirik.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lirik.swift; sourceTree = "<group>"; };
+		AC9F8009238277D100752432 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		AC9F800B238277FB00752432 /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		AC9F800D2382782A00752432 /* GetStarted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStarted.swift; sourceTree = "<group>"; };
+		AC9F800F2382787400752432 /* PageControlOnboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlOnboarding.swift; sourceTree = "<group>"; };
+		AC9F80132382798E00752432 /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		AC9F801523827A8F00752432 /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
+		DB52F03A237409270048B55D /* albumArtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = albumArtViewController.swift; sourceTree = "<group>"; };
+		DB52F03B237409270048B55D /* albumArtViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = albumArtViewController.xib; sourceTree = "<group>"; };
+		DC0EE70323819D0900638360 /* RunningText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningText.swift; sourceTree = "<group>"; };
+		DC222CA523898F6400B00C82 /* Helper */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Helper; sourceTree = "<group>"; };
+		DC222CA72389965700B00C82 /* VTune-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VTune-Bridging-Header.h"; sourceTree = "<group>"; };
+		DC222CA82389965800B00C82 /* MXMLyricsAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXMLyricsAction.m; sourceTree = "<group>"; };
+		DC222CA92389965800B00C82 /* MXMLyricsAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXMLyricsAction.h; sourceTree = "<group>"; };
+		DC501475236C70F300AD39F1 /* Musicable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Musicable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC501478236C70F300AD39F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC50147A236C70F300AD39F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DC50147F236C70F300AD39F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC501482236C70F300AD39F1 /* VTune.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VTune.xcdatamodel; sourceTree = "<group>"; };
+		DC501484236C70F500AD39F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC501487236C70F500AD39F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC501489236C70F500AD39F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC60DADD237036320070F386 /* MusicPlayer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MusicPlayer.storyboard; sourceTree = "<group>"; };
+		DC60DADF2370367E0070F386 /* MusicPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerViewController.swift; sourceTree = "<group>"; };
+		DC67F451237A9EE2006F6278 /* EqualizerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EqualizerView.xib; path = "Music Player/EqualizerView.xib"; sourceTree = "<group>"; };
+		DC67F453237A9F31006F6278 /* DurationSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DurationSlider.swift; path = VTune/Helper/DurationSlider.swift; sourceTree = SOURCE_ROOT; };
+		DC67F454237A9F32006F6278 /* VolumeSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VolumeSlider.swift; path = VTune/Helper/VolumeSlider.swift; sourceTree = SOURCE_ROOT; };
+		DC67F457237A9F42006F6278 /* EqualizerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EqualizerView.swift; path = Controller/MusicPlayer/EqualizerView.swift; sourceTree = "<group>"; };
+		DC67F459237A9F5B006F6278 /* dummySongFavorit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dummySongFavorit.swift; sourceTree = "<group>"; };
+		DC67F45A237A9F5B006F6278 /* dummySongList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dummySongList.swift; sourceTree = "<group>"; };
+		DC74969D23832279004B7F42 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		DCA99FF023741D6200312B37 /* MusicPlayerHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicPlayerHeader.xib; sourceTree = "<group>"; };
+		DCA99FF223741D7F00312B37 /* MusicPlayerHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerHeader.swift; sourceTree = "<group>"; };
+		DCA99FF4237421A200312B37 /* MusicPlayerLyricHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicPlayerLyricHeader.xib; sourceTree = "<group>"; };
+		DCA99FF6237421C800312B37 /* MusicPlayerLyricHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerLyricHeader.swift; sourceTree = "<group>"; };
+		DCA99FF823742CA400312B37 /* MusicPlayerAlbumImage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicPlayerAlbumImage.xib; sourceTree = "<group>"; };
+		DCA99FFA23742D5B00312B37 /* MusicPlayerAlbumImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerAlbumImage.swift; sourceTree = "<group>"; };
+		DCDFF6E92373DA93002A45EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF1C58A3237416B900694932 /* SongListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListTableViewCell.swift; sourceTree = "<group>"; };
+		EF1C58A4237416B900694932 /* SongListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SongListTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC501472236C70F300AD39F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC9F80082382776600752432 /*  Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				AC9F8009238277D100752432 /* OnboardingViewController.swift */,
+				AC9F800B238277FB00752432 /* Slide.swift */,
+				AC9F800D2382782A00752432 /* GetStarted.swift */,
+				AC9F800F2382787400752432 /* PageControlOnboarding.swift */,
+			);
+			path = " Onboarding";
+			sourceTree = "<group>";
+		};
+		AC9F8012238278D000752432 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				AC9F80132382798E00752432 /* Onboarding.storyboard */,
+				AC9F801523827A8F00752432 /* Slide.xib */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		DC50146C236C70F300AD39F1 = {
+			isa = PBXGroup;
+			children = (
+				DB52F03A237409270048B55D /* albumArtViewController.swift */,
+				DB52F03B237409270048B55D /* albumArtViewController.xib */,
+				DC501477236C70F300AD39F1 /* VTune */,
+				DC501476236C70F300AD39F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC501476236C70F300AD39F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC501475236C70F300AD39F1 /* Musicable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC501477236C70F300AD39F1 /* VTune */ = {
+			isa = PBXGroup;
+			children = (
+				DC7496852382E681004B7F42 /* Songs */,
+				DC50148F236C716400AD39F1 /* Model */,
+				DC501490236C716D00AD39F1 /* View */,
+				DC501491236C717B00AD39F1 /* Controller */,
+				DC501478236C70F300AD39F1 /* AppDelegate.swift */,
+				DC67F457237A9F42006F6278 /* EqualizerView.swift */,
+				DC50147A236C70F300AD39F1 /* SceneDelegate.swift */,
+				DC74969D23832279004B7F42 /* Manager.swift */,
+				DC501484236C70F500AD39F1 /* Assets.xcassets */,
+				DC501486236C70F500AD39F1 /* LaunchScreen.storyboard */,
+				DC501489236C70F500AD39F1 /* Info.plist */,
+				DC501481236C70F300AD39F1 /* VTune.xcdatamodeld */,
+				DC0EE70323819D0900638360 /* RunningText.swift */,
+			);
+			path = VTune;
+			sourceTree = "<group>";
+		};
+		DC50148F236C716400AD39F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC67F459237A9F5B006F6278 /* dummySongFavorit.swift */,
+				DC67F45A237A9F5B006F6278 /* dummySongList.swift */,
+				4E08CD732384563D00745BFF /* AudioUtilities.swift */,
+				4E08CD752384565400745BFF /* GraphUtility.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DC501490236C716D00AD39F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC9F8012238278D000752432 /* New Group */,
+				DC67F451237A9EE2006F6278 /* EqualizerView.xib */,
+				DCDFF6DC2372F346002A45EF /* Main */,
+				DCDFF6DB2372F33F002A45EF /* Music Player */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DC501491236C717B00AD39F1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC9F80082382776600752432 /*  Onboarding */,
+				DCDFF6D92372F31E002A45EF /* Main */,
+				DCDFF6DA2372F324002A45EF /* MusicPlayer */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DC7496852382E681004B7F42 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				4E08CD69238455C000745BFF /* Menunggu Kamu (OST Jelita Sejuba).mp3 */,
+				4E08CD6C238455C100745BFF /* Sempurna.mp3 */,
+				4E08CD6A238455C000745BFF /* Goyang Dumang.mp3 */,
+				4E08CD6B238455C100745BFF /* Pesta.mp3 */,
+				4E08CD6D238455C200745BFF /* Harus Bahagia.mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
+		DCDFF6D92372F31E002A45EF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EF1C58A3237416B900694932 /* SongListTableViewCell.swift */,
+				DCDFF6E92373DA93002A45EF /* ViewController.swift */,
+				5157B761237560D2005C795E /* MusicPlayerMini.swift */,
+				5157B763237560DA005C795E /* DesignSliderProgress.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		DCDFF6DA2372F324002A45EF /* MusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				DC67F453237A9F31006F6278 /* DurationSlider.swift */,
+				DC67F454237A9F32006F6278 /* VolumeSlider.swift */,
+				DC60DADF2370367E0070F386 /* MusicPlayerViewController.swift */,
+				AC054D082374033100E28931 /* PlayView.swift */,
+				AC054D0C23740AF300E28931 /* Lirik.swift */,
+				DCA99FF223741D7F00312B37 /* MusicPlayerHeader.swift */,
+				DCA99FF6237421C800312B37 /* MusicPlayerLyricHeader.swift */,
+				DCA99FFA23742D5B00312B37 /* MusicPlayerAlbumImage.swift */,
+				DC222CA92389965800B00C82 /* MXMLyricsAction.h */,
+				DC222CA82389965800B00C82 /* MXMLyricsAction.m */,
+				DC222CA72389965700B00C82 /* VTune-Bridging-Header.h */,
+			);
+			path = MusicPlayer;
+			sourceTree = "<group>";
+		};
+		DCDFF6DB2372F33F002A45EF /* Music Player */ = {
+			isa = PBXGroup;
+			children = (
+				DC60DADD237036320070F386 /* MusicPlayer.storyboard */,
+				AC054D062374031800E28931 /* PlayView.xib */,
+				AC054D0A23740AE300E28931 /* Lirik.xib */,
+				DCA99FF023741D6200312B37 /* MusicPlayerHeader.xib */,
+				DCA99FF4237421A200312B37 /* MusicPlayerLyricHeader.xib */,
+				DCA99FF823742CA400312B37 /* MusicPlayerAlbumImage.xib */,
+			);
+			path = "Music Player";
+			sourceTree = "<group>";
+		};
+		DCDFF6DC2372F346002A45EF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EF1C58A4237416B900694932 /* SongListTableViewCell.xib */,
+				DC50147E236C70F300AD39F1 /* Main.storyboard */,
+				5157B75F23756098005C795E /* MusicPlayerMini.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC501474236C70F300AD39F1 /* VTune */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC50148C236C70F500AD39F1 /* Build configuration list for PBXNativeTarget "VTune" */;
+			buildPhases = (
+				DC501471236C70F300AD39F1 /* Sources */,
+				DC501472236C70F300AD39F1 /* Frameworks */,
+				DC501473236C70F300AD39F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VTune;
+			productName = VTune;
+			productReference = DC501475236C70F300AD39F1 /* Musicable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC50146D236C70F300AD39F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Jasmine Hanifa Mounir";
+				TargetAttributes = {
+					DC501474236C70F300AD39F1 = {
+						CreatedOnToolsVersion = 11.1;
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = DC501470236C70F300AD39F1 /* Build configuration list for PBXProject "VTune" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC50146C236C70F300AD39F1;
+			productRefGroup = DC501476236C70F300AD39F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC501474236C70F300AD39F1 /* VTune */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC501473236C70F300AD39F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E08CD6E238455C200745BFF /* Menunggu Kamu (OST Jelita Sejuba).mp3 in Resources */,
+				AC054D072374031800E28931 /* PlayView.xib in Resources */,
+				DB52F03D237409270048B55D /* albumArtViewController.xib in Resources */,
+				4E08CD6F238455C200745BFF /* Goyang Dumang.mp3 in Resources */,
+				DC501488236C70F500AD39F1 /* LaunchScreen.storyboard in Resources */,
+				DC67F452237A9EE2006F6278 /* EqualizerView.xib in Resources */,
+				EF1C58A6237416B900694932 /* SongListTableViewCell.xib in Resources */,
+				4E08CD71238455C200745BFF /* Sempurna.mp3 in Resources */,
+				AC9F801623827A8F00752432 /* Slide.xib in Resources */,
+				DCA99FF5237421A200312B37 /* MusicPlayerLyricHeader.xib in Resources */,
+				DC501485236C70F500AD39F1 /* Assets.xcassets in Resources */,
+				4E08CD72238455C200745BFF /* Harus Bahagia.mp3 in Resources */,
+				AC054D0B23740AE300E28931 /* Lirik.xib in Resources */,
+				DCA99FF923742CA500312B37 /* MusicPlayerAlbumImage.xib in Resources */,
+				5157B76023756098005C795E /* MusicPlayerMini.xib in Resources */,
+				DC501480236C70F300AD39F1 /* Main.storyboard in Resources */,
+				AC9F80142382798E00752432 /* Onboarding.storyboard in Resources */,
+				DC60DADE237036320070F386 /* MusicPlayer.storyboard in Resources */,
+				4E08CD70238455C200745BFF /* Pesta.mp3 in Resources */,
+				DCA99FF123741D6200312B37 /* MusicPlayerHeader.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC501471236C70F300AD39F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC67F456237A9F32006F6278 /* VolumeSlider.swift in Sources */,
+				EF1C58A5237416B900694932 /* SongListTableViewCell.swift in Sources */,
+				DC67F45C237A9F5B006F6278 /* dummySongList.swift in Sources */,
+				DC67F458237A9F42006F6278 /* EqualizerView.swift in Sources */,
+				AC054D092374033100E28931 /* PlayView.swift in Sources */,
+				DCA99FFB23742D5B00312B37 /* MusicPlayerAlbumImage.swift in Sources */,
+				DC501483236C70F300AD39F1 /* VTune.xcdatamodeld in Sources */,
+				AC9F80102382787400752432 /* PageControlOnboarding.swift in Sources */,
+				AC9F800A238277D100752432 /* OnboardingViewController.swift in Sources */,
+				AC054D0D23740AF300E28931 /* Lirik.swift in Sources */,
+				DC60DAE02370367E0070F386 /* MusicPlayerViewController.swift in Sources */,
+				4E08CD762384565400745BFF /* GraphUtility.swift in Sources */,
+				DCA99FF7237421C800312B37 /* MusicPlayerLyricHeader.swift in Sources */,
+				DC67F455237A9F32006F6278 /* DurationSlider.swift in Sources */,
+				5157B762237560D2005C795E /* MusicPlayerMini.swift in Sources */,
+				DCDFF6EA2373DA93002A45EF /* ViewController.swift in Sources */,
+				DC222CAA2389965800B00C82 /* MXMLyricsAction.m in Sources */,
+				AC9F800E2382782A00752432 /* GetStarted.swift in Sources */,
+				DCA99FF323741D7F00312B37 /* MusicPlayerHeader.swift in Sources */,
+				DC501479236C70F300AD39F1 /* AppDelegate.swift in Sources */,
+				4E08CD742384563D00745BFF /* AudioUtilities.swift in Sources */,
+				DC50147B236C70F300AD39F1 /* SceneDelegate.swift in Sources */,
+				DC74969E23832279004B7F42 /* Manager.swift in Sources */,
+				5157B764237560DA005C795E /* DesignSliderProgress.swift in Sources */,
+				AC9F800C238277FB00752432 /* Slide.swift in Sources */,
+				DC0EE70423819D0900638360 /* RunningText.swift in Sources */,
+				DC67F45B237A9F5B006F6278 /* dummySongFavorit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC50147E236C70F300AD39F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC50147F236C70F300AD39F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC501486236C70F500AD39F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC501487236C70F500AD39F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC50148A236C70F500AD39F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC50148B236C70F500AD39F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC50148D236C70F500AD39F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X29NU3BMGT;
+				INFOPLIST_FILE = VTune/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasmine.VTune;
+				PRODUCT_NAME = Musicable;
+				SWIFT_OBJC_BRIDGING_HEADER = "VTune/Controller/MusicPlayer/VTune-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC50148E236C70F500AD39F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4H65A594JP;
+				INFOPLIST_FILE = VTune/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasmine.VTune;
+				PRODUCT_NAME = Musicable;
+				SWIFT_OBJC_BRIDGING_HEADER = "VTune/Controller/MusicPlayer/VTune-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC501470236C70F300AD39F1 /* Build configuration list for PBXProject "VTune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC50148A236C70F500AD39F1 /* Debug */,
+				DC50148B236C70F500AD39F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC50148C236C70F500AD39F1 /* Build configuration list for PBXNativeTarget "VTune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC50148D236C70F500AD39F1 /* Debug */,
+				DC50148E236C70F500AD39F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DC501481236C70F300AD39F1 /* VTune.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DC501482236C70F300AD39F1 /* VTune.xcdatamodel */,
+			);
+			currentVersion = DC501482236C70F300AD39F1 /* VTune.xcdatamodel */;
+			path = VTune.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DC50146D236C70F300AD39F1 /* Project object */;
+}
