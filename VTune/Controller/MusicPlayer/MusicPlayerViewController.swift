@@ -11,6 +11,7 @@ import AVFoundation
 import MediaPlayer
 import Accelerate
 import CoreHaptics
+import AVKit
 
 //===========================================================================================================================
 //Global Property For Signal Sample Count (from: rajabun)
@@ -40,6 +41,9 @@ class MusicPlayerViewController: UIViewController {
     var albumImage: UIImage?
     var totalDuration: Int = 0
     var timer:Timer!
+    
+    let airplay = AVRoutePickerView()
+    
     
     //===========================================================================================================================
     //Global Property For Render Signal (from: rajabun)
@@ -113,7 +117,14 @@ class MusicPlayerViewController: UIViewController {
         referenceAlbumImageView?.nowPlayingAlbumImage.layer.shadowOpacity = 0.3
         referenceAlbumImageView?.nowPlayingAlbumImage.layer.shadowRadius = 10
         
-//        referencePlayView?.volumeSlider.self.setVolumeThumbImage(#imageLiteral(resourceName: "Slider Dot"), for: .normal)
+        referencePlayView?.volumeSlider.self.setVolumeThumbImage(#imageLiteral(resourceName: "Slider Dot"), for: .normal)
+        referencePlayView?.volumeSlider.self.setMinimumVolumeSliderImage(#imageLiteral(resourceName: "Slider Filler"), for: .normal)
+        referencePlayView?.volumeSlider.self.setMaximumVolumeSliderImage(#imageLiteral(resourceName: "Minimal Slider"), for: .normal)
+        referencePlayView?.volumeSlider.self.showsVolumeSlider = true
+        referencePlayView?.timeSlider.setMinimumTrackImage(#imageLiteral(resourceName: "Slider Filler"), for: .normal)
+        referencePlayView?.timeSlider.setMaximumTrackImage(#imageLiteral(resourceName: "Minimal Slider"), for: .normal)
+        
+        
     //===========================================================================================================================
         //Function For Render Waveform View (from: rajabun)
         //===========================================================================================================================

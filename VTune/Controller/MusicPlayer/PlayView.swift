@@ -59,7 +59,7 @@ class PlayView: UIView {
     }
     
     @IBAction func btnVibrate(_ sender: Any) {
-        if btnVibrateOutlet.currentImage == #imageLiteral(resourceName: "Vibrate Button On"){
+        if btnVibrateOutlet.currentImage == #imageLiteral(resourceName: "Vibrate Button Off"){
             btnVibrateOutlet.setImage(#imageLiteral(resourceName: "Vibrate Button Off"), for: .normal)
         }else{
             btnVibrateOutlet.setImage(#imageLiteral(resourceName: "Vibrate Button On"), for: .normal)
@@ -67,7 +67,13 @@ class PlayView: UIView {
     }
 
     @IBAction func btnLirik(_ sender: UIButton) {
-        delegate?.getLyric(button: sender)
+        if btnLirikOutlet.currentImage == #imageLiteral(resourceName: "Lyric Button Off"){
+            btnLirikOutlet.setImage(#imageLiteral(resourceName: "Lyric Button Off"), for: .normal)
+        }else{
+            btnLirikOutlet.setImage(#imageLiteral(resourceName: "Lyric Button On"), for: .normal)
+            delegate?.getLyric(button: sender)
+        }
+        
     }
     
     @IBAction func sliderValueChange(_ sender: Any) {
@@ -77,5 +83,4 @@ class PlayView: UIView {
     @IBAction func sliderVolume(_ sender: UISlider) {
       
     }
-}
-   
+}   
